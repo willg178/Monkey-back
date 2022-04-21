@@ -1,0 +1,7 @@
+{
+  id: @image.id,
+  monkey_id: @image.monkey_id,
+  image_url: @image.image_url,
+  created_at: @image.created_at,
+  updated_at: @image.updated_at
+}

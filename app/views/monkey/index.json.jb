@@ -1,0 +1,13 @@
+@monkeys.map do |monkey|
+  {
+    id: monkey.id,
+    name: monkey.name,
+    location: monkey.location,
+    population: monkey.population,
+    description: monkey.description,
+    facts: monkey.facts,
+    size: monkey.size,
+    weight: monkey.weight,
+    images: monkey.images
+  }
+end

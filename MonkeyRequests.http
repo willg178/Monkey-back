@@ -1,0 +1,30 @@
+###Index monkey
+GET http://localhost:3000/monkeys.json
+
+###Show monkey
+GET http://localhost:3000/monkeys/1.json
+
+###Create monkey
+POST http://localhost:3000/monkeys.json
+Content-Type: application/json
+
+{
+  "name": "sample monkey",
+  "location": "nowhere",
+  "population": "1",
+  "description": "sample",
+  "facts": "is a sample",
+  "size": "0 ft",
+  "weight": "0 lbs"
+}
+
+###Update monkey
+PATCH http://localhost:3000/monkeys/7.json
+Content-Type: application/json
+
+{
+  "name": "Example monkey"
+} 
+
+###Destroy monkey
+DELETE http://localhost:3000/monkeys/7.json

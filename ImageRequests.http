@@ -1,0 +1,25 @@
+###Index image
+GET http://localhost:3000/images.json
+
+###Show image
+GET http://localhost:3000/images/1.json
+
+###Create image
+POST http://localhost:3000/images.json
+Content-Type: application/json
+
+{
+  "image_url": "sample image",
+  "monkey_id": "1"
+}
+
+###Update image
+PATCH http://localhost:3000/images/11.json
+Content-Type: application/json
+
+{
+  "image_url": "Example image"
+} 
+
+###Destroy image
+DELETE http://localhost:3000/images/11.json

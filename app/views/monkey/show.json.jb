@@ -1,0 +1,10 @@
+{
+  id: @monkey.id,
+  name: @monkey.name,
+  location: @monkey.location,
+  population: @monkey.population,
+  description: @monkey.description,
+  facts: @monkey.facts,
+  created_at: @monkey.created_at,
+  updated_at: @monkey.updated_at
+}
